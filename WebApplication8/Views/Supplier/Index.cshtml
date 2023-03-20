@@ -1,0 +1,58 @@
+﻿@using Pharma.Entities
+@model IEnumerable<Supplier>
+
+<h4>Supplier</h4>
+<a asp-action="Create" class="btn btn-primary">Create</a>
+<br />
+<br />
+<form asp-controller="SupplierController" asp-action="Index">
+    <p>
+        Title: <input type="text" name="searchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @* @Html.DisplayNameFor(model=>model.Pr)*@
+                Supplier Name
+            </th>
+            <th>
+                Address
+            </th>
+            <th>
+                Email
+            </th>
+            <th>
+                Phone
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Name
+                </td>
+                <td>
+                    @item.Addrsss
+                </td>
+                <td>
+                    @item.Email
+                </td>
+                <td>
+                    @item.Phone
+                </td>
+                <td>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-info">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

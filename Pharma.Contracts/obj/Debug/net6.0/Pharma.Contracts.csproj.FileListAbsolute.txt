@@ -1,0 +1,17 @@
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.Contracts\bin\Debug\net6.0\Pharma.Contracts.deps.json
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.Contracts\bin\Debug\net6.0\Pharma.Contracts.runtimeconfig.json
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.Contracts\bin\Debug\net6.0\Pharma.Contracts.dll
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.Contracts\bin\Debug\net6.0\Pharma.Contracts.pdb
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.Contracts\obj\Debug\net6.0\Pharma.Contracts.csproj.AssemblyReference.cache
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.Contracts\obj\Debug\net6.0\Pharma.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.Contracts\obj\Debug\net6.0\Pharma.Contracts.AssemblyInfoInputs.cache
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.Contracts\obj\Debug\net6.0\Pharma.Contracts.AssemblyInfo.cs
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.Contracts\obj\Debug\net6.0\Pharma.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.Contracts\obj\Debug\net6.0\Pharma.Contracts.dll
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.Contracts\obj\Debug\net6.0\refint\Pharma.Contracts.dll
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.Contracts\obj\Debug\net6.0\Pharma.Contracts.pdb
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.Contracts\obj\Debug\net6.0\Pharma.Contracts.genruntimeconfig.cache
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.Contracts\obj\Debug\net6.0\ref\Pharma.Contracts.dll
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.Contracts\bin\Debug\net6.0\Pharma.Entities.dll
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.Contracts\bin\Debug\net6.0\Pharma.Entities.pdb
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.Contracts\obj\Debug\net6.0\Pharma.Contracts.csproj.CopyComplete

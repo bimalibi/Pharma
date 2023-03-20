@@ -1,0 +1,73 @@
+﻿@using Pharma.Entities
+@model IEnumerable<Purchase>
+
+<h4>Purchase</h4>
+<a asp-action="Create" class="btn btn-primary">Create</a>
+<br />
+<br />
+<form asp-controller="Purchase" asp-action="Index">
+    <p>
+        Title: <input type="text" name="searchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @* @Html.DisplayNameFor(model=>model.Pr)*@
+                Product
+            </th>
+            <th>
+                Quantity
+            </th>
+            <th>
+                Cost 
+            </th>
+            <th>
+                Total
+            </th>
+            <th>
+                Purchase Date
+            </th>
+            <th>
+                Manufacturer
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @* @Html.DisplayFor(modelItem=>item.SupplyName+" "+item.SupplyName)*@
+                    @item.Product.Name
+                </td>
+                <td>
+                    @* @Html.DisplayFor(modelItem=>item.SupplyType+" "+item.SupplyType)*@
+                    @item.Quantity
+                </td>
+                <td>
+                    @item.CostPrice
+                </td>
+                <td>
+                    @(item.CostPrice*item.Quantity)
+                </td>
+                <td>
+                    @item.PurchaseDate
+                </td>
+                <td>
+                    @item.Manufacturer.Name
+                </td>
+                <td>
+                    <a asp-action="Detail" asp-route-id="@item.Id" class="btn btn-info">Detail</a>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

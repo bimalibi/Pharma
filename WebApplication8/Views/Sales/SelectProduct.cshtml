@@ -1,0 +1,31 @@
+﻿@using Pharma.Entities;
+@model Sales
+
+
+<link href="~/css/site.css" rel="stylesheet" />
+@{
+    var productDropdownValues = ViewBag.ProductId as List<SelectListItem>;
+}
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<h4>Add Sales</h4>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="ToCreate">
+            <div class="form-group">
+                <label class="control-label">Product</label>
+                <select asp-for="ProductId" asp-action="Getprice" class="form-control" asp-items="ViewBag.ProductId"></select>
+                <span asp-validation-for="ProductId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="hidden" asp-for="Id" />
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-action="Index" type="button" class="btn btn-danger">Cancel</a>
+            </div>
+       </form>
+   </div>
+</div>

@@ -1,0 +1,17 @@
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.EntityFramework\bin\Debug\net6.0\Pharma.EntityFramework.deps.json
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.EntityFramework\bin\Debug\net6.0\Pharma.EntityFramework.runtimeconfig.json
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.EntityFramework\bin\Debug\net6.0\Pharma.EntityFramework.dll
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.EntityFramework\bin\Debug\net6.0\Pharma.EntityFramework.pdb
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.EntityFramework\bin\Debug\net6.0\Pharma.Entities.dll
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.EntityFramework\bin\Debug\net6.0\Pharma.Entities.pdb
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.EntityFramework\obj\Debug\net6.0\Pharma.EntityFramework.csproj.AssemblyReference.cache
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.EntityFramework\obj\Debug\net6.0\Pharma.EntityFramework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.EntityFramework\obj\Debug\net6.0\Pharma.EntityFramework.AssemblyInfoInputs.cache
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.EntityFramework\obj\Debug\net6.0\Pharma.EntityFramework.AssemblyInfo.cs
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.EntityFramework\obj\Debug\net6.0\Pharma.EntityFramework.csproj.CoreCompileInputs.cache
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.EntityFramework\obj\Debug\net6.0\Pharma.EntityFramework.csproj.CopyComplete
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.EntityFramework\obj\Debug\net6.0\Pharma.EntityFramework.dll
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.EntityFramework\obj\Debug\net6.0\refint\Pharma.EntityFramework.dll
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.EntityFramework\obj\Debug\net6.0\Pharma.EntityFramework.pdb
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.EntityFramework\obj\Debug\net6.0\Pharma.EntityFramework.genruntimeconfig.cache
+C:\Users\ACER\guruGanesh\WebApplication8\Pharma.EntityFramework\obj\Debug\net6.0\ref\Pharma.EntityFramework.dll

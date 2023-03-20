@@ -1,0 +1,41 @@
+﻿@using Pharma.Entities;
+@model Product
+
+
+<link href="~/css/site.css" rel="stylesheet" />
+@{
+    var dropdownValues = ViewBag.ManufacturerId as List<SelectListItem>;
+}
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h4>Create Product</h4>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Name" class="control-label">Product Name</label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StockThreshold" class="control-label">Stock Threshold</label>
+                <input asp-for="StockThreshold" class="form-control" />
+                <span asp-validation-for="StockThreshold" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Manufacturer</label>
+                <select asp-for="ManufacturerId" class="form-control" asp-items="ViewBag.ManufacturerId"></select>
+                <span asp-validation-for="ManufacturerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+                <a asp-action="Index" type="button" class="btn btn-danger">Cancel</a>
+            </div>
+        </form>
+    </div>
+</div>
+

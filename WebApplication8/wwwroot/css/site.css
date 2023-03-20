@@ -1,0 +1,42 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+navbar-brand-logo {
+    height: 45px;
+}
+.header1 {
+    background-color: beige;
+}
+.table > thead {
+    background-color: cornflowerblue;
+}
+.table > tbody {
+    background-color: lightgrey;
+}
+.contaier{
+    background-color:darkgrey
+}
+.col-md-4{
+    background-color: lightgray;
+}
+.navbar-nav flex-grow-1 {
+    padding-left: 80px;
+    font-size: medium;
+    font-weight: bold;
+}
+

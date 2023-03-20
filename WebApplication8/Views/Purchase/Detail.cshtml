@@ -1,0 +1,75 @@
+﻿@using Pharma.Entities;
+@model Purchase
+
+<h4>Detail</h4>
+<div>
+    <dl>
+        <dt>
+            <label>Product Name: </label>
+        </dt>
+        <dd>
+            @Model.Product.Name
+        </dd>
+        <dt>
+            <label>Quantity: </label>
+        </dt>
+        <dd>
+            @Model.Quantity
+        </dd>
+        <dt>
+            <label>Cost Price: </label>
+        </dt>
+        <dd>
+            @Model.CostPrice
+        </dd>
+        <dt>
+            <labe>Total Amount</labe>
+        </dt>
+        <dd>
+            @(Model.CostPrice*Model.Quantity)
+        </dd>
+        <dt>
+            <labe>Selling Price: </labe>
+        </dt>
+        <dd>
+            @Model.SellPrice
+        </dd>
+        <dt>
+            <labe>Order Lot</labe>
+        </dt>
+        <dd>
+            @Model.OrderLot
+        </dd>
+        <dt>
+            <labe>Purchase Date</labe>
+        </dt>
+        <dd>
+            @Model.PurchaseDate
+        </dd>
+        <dt>
+            <labe>Manufactured Date</labe>
+        </dt>
+        <dd>
+            @Model.ManufacturedDate
+        </dd>
+        <dt>
+            <labe>Expiration Date</labe>
+        </dt>
+        <dd>
+            @Model.ExpirationDate
+        </dd>
+        <dt>
+            <labe>Manufacturer</labe>
+        </dt>
+        <dd>
+            @Model.Manufacturer.Name
+        </dd>
+        <dt>
+            <labe>Supplier</labe>
+        </dt>
+        <dd>
+            @Model.Supplier.Name
+        </dd>
+    </dl>
+</div>
+<a asp-action="Delete" asp-route-id="@Model.Id" class="btn btn-danger">Delete</a>
